@@ -1,0 +1,30 @@
+h2. Problem description
+
+Write a program that prints out the numbers 1 to 100 (inclusive).
+
+If the number is divisible by 3, print Fizz instead of the number. If it's divisible by 5, print Buzz.
+
+h2. Running dependencies
+
+You need to install "Bundler":http://gembundler.com/. I'm using "RVM":http://rvm.beginrescueend.com/ to manage gemsets, but it is not required. After install bundle, go to project root directory and type:
+
+<pre>
+    bundle install
+</pre>
+
+h3. Executing the code
+
+Go to project root directory and type:
+
+<pre>
+    ruby lib/fizzbuzz.rb
+</pre>
+
+h3. Running the tests
+
+Just type:
+
+<pre>rake</pre>
+
+That's all, folks.
+
